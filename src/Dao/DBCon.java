@@ -8,9 +8,9 @@ import java.sql.DriverManager;
 
 public class DBCon {
     public static final String DBDRIVER = "com.mysql.cj.jdbc.Driver";
-    public static final String DBURL = "jdbc:mysql://120.78.139.130:3306/orangeqq?useSSL=false&characterEncoding=UTF8&serverTimezone=Asia/Shanghai";
-    public static final String DBUSER = "juzi";
-    public static final String DBPASSWORD = "jqsmx1731815301";
+    public static final String DBURL = "jdbc:mysql://localhost:3306/orangeqq?useSSL=false&characterEncoding=UTF8&serverTimezone=Asia/Shanghai";
+    public static final String DBUSER = "root";
+    public static final String DBPASSWORD = "admin";
     public static Connection con = null;
 
     static {
